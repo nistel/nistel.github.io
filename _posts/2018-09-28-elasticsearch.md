@@ -2,20 +2,19 @@
 layout: post
 title: "Elastic Search 설치"
 description: "Elastic Search 설치하기"
-categories: [etc]
+categories: [ETC]
 tags: [elasticsearch, elastic]
 redirect_from:
   - /2018/09/28/
 ---
 
 # 일단 설치를 한다.
-
-    weget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.4.1.rpm
-    rpm -i elasticsearch-6.4.1.rpm
-    systemctl enable elasticsearch.service
-    service elasticsearch start
-    service elasticsearch stop
-    curl -XGET localhost:9200
+    # weget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.4.1.rpm
+    # rpm -i elasticsearch-6.4.1.rpm
+    # systemctl enable elasticsearch.service
+    # service elasticsearch start
+    # service elasticsearch stop
+    # curl -XGET localhost:9200
 
 # 오류가 날 경우 확인 후 다시 실행
     # systemcctl status elasticsearch
@@ -47,4 +46,4 @@ redirect_from:
       "tagline" : "You Know, for Search"
     }
 
- 끝
+ # 끝
