@@ -25,9 +25,9 @@ redirect_from:
 
 
 # 방화벽 풀어주고 설정 후 다시 확인
-    vim /etc/elasticsearch/elasticsearch.yml
-    network.host: 0.0.0.0 으로 변경
-    curl -XGET localhost:9200
+    # vim /etc/elasticsearch/elasticsearch.yml
+    # network.host: 0.0.0.0 으로 변경
+    # curl -XGET localhost:9200
     {
       "name" : "rUJc9OZ",
       "cluster_name" : "elasticsearch",
